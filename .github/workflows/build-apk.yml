@@ -29,7 +29,9 @@ jobs:
         run: npx expo export --platform android
 
       - name: Generate Local Native Files
-        run: npx expo prebuild --platform android --no-interactive
+        env:
+          CI: true
+        run: npx expo prebuild --platform android
 
       - name: Compile Standalone Release APK
         run: |
