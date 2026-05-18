@@ -4,7 +4,7 @@
     "slug": "timefit",
     "version": "1.0.0",
     "orientation": "portrait",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "automatic",
     "splash": {
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
@@ -16,7 +16,11 @@
       "adaptiveIcon": {
         "backgroundColor": "#ffffff"
       },
-      "package": "com.natiasaye23tech.timefit"
+      "package": "com.natiasaye23tech.timefit",
+      "permissions": [
+        "CAMERA",
+        "PACKAGE_USAGE_STATS"
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png"
