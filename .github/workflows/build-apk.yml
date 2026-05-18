@@ -25,8 +25,11 @@ jobs:
       - name: Fix Expo Package Mismatches
         run: npx expo install --fix
 
+      - name: Export Production JS Bundle Assets
+        run: npx expo export --platform android
+
       - name: Generate Local Native Files
-        run: npx expo prebuild --platform android
+        run: npx expo prebuild --platform android --no-interactive
 
       - name: Compile Standalone Release APK
         run: |
