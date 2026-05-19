@@ -1,5 +1,6 @@
 {
   "expo": {
+<<<<<<< HEAD
     "name": "TimeFitV54",
     "slug": "TimeFitV54",
     "version": "1.0.0",
@@ -9,6 +10,14 @@
     "newArchEnabled": true,
     "splash": {
       "image": "./assets/splash-icon.png",
+=======
+    "name": "timefit",
+    "slug": "timefit",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+>>>>>>> 6bb3b1d20979d3980928098281fbb7c0151947ae
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,11 +26,21 @@
     },
     "android": {
       "adaptiveIcon": {
+<<<<<<< HEAD
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
       "package": "com.anonymous.TimeFitV54"
+=======
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.natiasaye23tech.timefit",
+      "permissions": [
+        "CAMERA",
+        "PACKAGE_USAGE_STATS"
+      ]
+>>>>>>> 6bb3b1d20979d3980928098281fbb7c0151947ae
     },
     "web": {
       "favicon": "./assets/favicon.png"
